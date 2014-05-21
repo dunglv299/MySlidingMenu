@@ -36,7 +36,7 @@ public class CustomZoomAnimation extends SlidingFragmentActivity {
         slidingMenu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
         slidingMenu.setFadeDegree(0.35f);
         slidingMenu.setMode(SlidingMenu.LEFT_RIGHT);
-        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
         slidingMenu.setBehindScrollScale(0.0f);
         mTransformer = new CanvasTransformer() {
             @Override
